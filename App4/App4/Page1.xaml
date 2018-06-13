@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="App4.Page1"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<Label
+					BackgroundColor="Red"
+					HeightRequest="80"
+					Text="string 1" />
+				<Label
+					BackgroundColor="Green"
+					HeightRequest="80"
+					Text="string 2" />
+				<Label
+					BackgroundColor="CadetBlue"
+					HeightRequest="80"
+					Text="string 3" />
+				<Label
+					BackgroundColor="Yellow"
+					HeightRequest="80"
+					Text="string 4" />
+				<Label
+					BackgroundColor="Purple"
+					HeightRequest="80"
+					Text="string 5" />
+				<Label
+					BackgroundColor="Gray"
+					HeightRequest="80"
+					Text="string 6" />
+				<Label
+					BackgroundColor="Blue"
+					HeightRequest="80"
+					Text="string 7" />
+				<Label
+					BackgroundColor="Pink"
+					HeightRequest="80"
+					Text="string 8" />
+				<Label
+					BackgroundColor="Orange"
+					HeightRequest="80"
+					Text="string 9" />
+				<Label
+					BackgroundColor="DarkCyan"
+					HeightRequest="80"
+					Text="string 10" />
+				<Label
+					BackgroundColor="LightSalmon"
+					HeightRequest="80"
+					Text="string 11" />
+				<Label
+					BackgroundColor="Thistle"
+					HeightRequest="80"
+					Text="string 12" />
+				
+
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

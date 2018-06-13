@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<naxam:BottomTabbedPage
+	x:Class="App4.MainPage"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:App4"
+	xmlns:naxam="clr-namespace:Naxam.Controls.Forms;assembly=Naxam.Controls.Forms">
+
+	<NavigationPage x:Name="np1" Title="np1">
+		<x:Arguments>
+			<local:Page1 x:Name="Page1" />
+		</x:Arguments>
+	</NavigationPage>
+
+
+	<NavigationPage x:Name="np2" Title="np2">
+		<x:Arguments>
+			<local:Page1 x:Name="Page2" />
+		</x:Arguments>
+	</NavigationPage>
+
+	<NavigationPage x:Name="np3" Title="np3">
+		<x:Arguments>
+			<local:Page1 x:Name="Page3" />
+		</x:Arguments>
+	</NavigationPage>
+
+	<NavigationPage x:Name="np4" Title="np4">
+		<x:Arguments>
+			<local:Page1 x:Name="Page4" />
+		</x:Arguments>
+	</NavigationPage>
+
+	<NavigationPage x:Name="np5" Title="np5">
+		<x:Arguments>
+			<local:Page1 x:Name="Page5" />
+		</x:Arguments>
+	</NavigationPage>
+</naxam:BottomTabbedPage>
